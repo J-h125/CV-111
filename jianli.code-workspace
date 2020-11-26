@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "..\\vue-demo-3"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "cv-1",
+    "cSpell.words": [
+      "antd"
+    ]
+  }
+}
