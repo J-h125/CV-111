@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    font:15px/1.5 Arial;
+    color:#666;
+
+    height:29.7cm;
+    width:21cm;
+}
+.layout{
+    border: 1px solid red;
+    width: 900px;
+    margin:0 auto;
+    height: 1273px;
+
+}
+#page{
+    display:flex;
+    flex-wrap:wrap;
+}
+header{
+    height:100px;
+    background: #3d3c3f;
+    width:100%;
+    text-align:center;
+    padding:60px 0 10px 0;
+    color:#fff;
+}
+header>h1{
+    font-size:30px;
+    margin-bottom:0;
+}
+header>p{
+    font-size:18px;
+    color:#aaa;
+    margin:0px;
+}
+aside{
+    width:240px;
+    border-right:1px solid #ccc;
+    padding-top:25px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+}
+section{
+    border-bottom:2px solid #ccc;
+    padding:30px 10px 0 0px;
+    padding-bottom:20px;
+    margin:0 20px;
+}
+section h2{
+    color:#5c99ca;
+    font-size:21px;
+
+}
+.items div{
+    position: relative;
+
+}
+.items div a{
+    position: absolute;
+    right: 100px;
+   vertical-align: baseline;
+}
+
+
+
+.personal .item span:first-child{
+    display: inline-block;
+    width:60px;
+
+}
+.personal .item span:nth-child(2)::before{
+    content:':';
+    margin-right:10px;
+}
+.personal .item{
+    margin-bottom:5px;
+}
+.skills .item{
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.skills .keywords{
+    width:80px;
+
+}
+
+.skills  .rule{
+    flex:1;
+    height:4px;
+    background: #ccc;
+}
+
+.skills .rule i{
+    display:block;
+    height:4px;
+    width:10%;
+    background: #000;
+}
+
+.contact .item{
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.contact svg{
+    width:25px;
+    height:25px;
+}
+
+
+
+main{
+    flex:1;
+    min-height: calc(100vh - 100px);
+}
+.edu{
+    font-size:18px;
+    font-weight:bold;
+    margin-right:20px
+}
+.work{
+    font:20px  bold  serif;
+    color:#3d3c3f;
+}
+
+/* @media(max-width:768px){
+  aside{
+  width:100%;
+  }
+} */
